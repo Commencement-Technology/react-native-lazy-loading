@@ -1,4 +1,4 @@
-import { ExtractRouteParams, Route } from './types.ts';
+import { Route } from './types.ts';
 
 export const routes: Route[] = [
   {
@@ -12,5 +12,3 @@ export const routes: Route[] = [
     options: { title: 'About' },
   },
 ];
-
-export type RootStackParamList = ExtractRouteParams<typeof routes[number]>;
